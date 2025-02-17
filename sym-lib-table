@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "TS3DV642")(type "KiCad")(uri "${KIPRJMOD}/Symbols/TS3DV642/TS3DV642.kicad_sym")(options "")(descr ""))
   (lib (name "SN74LVC112A")(type "KiCad")(uri "${KIPRJMOD}/Symbols/SN74LVC112AD/SN75LVC112A.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74LVC04AD")(type "KiCad")(uri "${KIPRJMOD}/Symbols/SN74LVC04AD/SN74LVC04AD.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74LVC1G04")(type "KiCad")(uri "${KIPRJMOD}/Symbols/SN74LVC1G04/SN74LVC1G04.kicad_sym")(options "")(descr ""))
 )

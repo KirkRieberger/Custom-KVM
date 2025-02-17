@@ -1,4 +1,7 @@
 (fp_lib_table
   (version 7)
-  (lib (name "TS3DV642")(type "KiCad")(uri "${KIPRJMOD}/Symbols/footprints.pretty")(options "")(descr ""))
+  (lib (name "TS3DV642")(type "KiCad")(uri "${KIPRJMOD}/Symbols/TS3DV642/footprints.pretty")(options "")(descr ""))
+  (lib (name "SN74LVC04AD")(type "KiCad")(uri "${KIPRJMOD}/Symbols/SN74LVC04AD/footprints.pretty")(options "")(descr ""))
+  (lib (name "SN74LVC112AD")(type "KiCad")(uri "${KIPRJMOD}/Symbols/SN74LVC112AD/footprints.pretty")(options "")(descr ""))
+  (lib (name "SN74LVC1G04")(type "KiCad")(uri "${KIPRJMOD}/Symbols/SN74LVC1G04/footprints.pretty")(options "")(descr ""))
 )
