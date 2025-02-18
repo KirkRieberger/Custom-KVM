@@ -1493,7 +1493,7 @@
 		(uuid "f445ccf7-cef3-4c28-879d-a17ea139c104")
 	)
 	(hierarchical_label "CS_A"
-		(shape input)
+		(shape output)
 		(at 233.68 142.24 0)
 		(effects
 			(font
@@ -1504,7 +1504,7 @@
 		(uuid "376eb3a2-a741-4611-b1d5-65262d76887e")
 	)
 	(hierarchical_label "CE_0"
-		(shape input)
+		(shape output)
 		(at 233.68 102.87 0)
 		(effects
 			(font
@@ -1515,7 +1515,7 @@
 		(uuid "5f99b8fd-e504-4a1d-9a99-3cfcff8d0b0e")
 	)
 	(hierarchical_label "CS_B"
-		(shape input)
+		(shape output)
 		(at 233.68 161.29 0)
 		(effects
 			(font
@@ -1526,7 +1526,7 @@
 		(uuid "64575b80-fae8-41ec-bb7a-10e84966f607")
 	)
 	(hierarchical_label "CE_1"
-		(shape input)
+		(shape output)
 		(at 233.68 121.92 0)
 		(effects
 			(font
