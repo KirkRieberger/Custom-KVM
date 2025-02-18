@@ -589,6 +589,10 @@
     [
       "0c5b2cf4-6c71-473b-81e1-a704ab2e8eda",
       "Root"
+    ],
+    [
+      "a7aaebd5-c008-4775-8536-ee48ae98ac2a",
+      "Enable Counter"
     ]
   ],
   "text_variables": {}
