@@ -759,16 +759,6 @@
 		)
 		(uuid "eecf82d0-3b17-4a5f-aa7f-c831c7a6366d")
 	)
-	(wire
-		(pts
-			(xy 102.87 160.02) (xy 110.49 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "004fb7f7-9240-4757-a4e2-8b155d2de740")
-	)
 	(bus
 		(pts
 			(xy 74.93 36.83) (xy 74.93 41.91)
@@ -798,6 +788,26 @@
 			(type default)
 		)
 		(uuid "1266aa0c-ccb5-4b5f-8913-8922bf4135b4")
+	)
+	(wire
+		(pts
+			(xy 102.87 144.78) (xy 114.3 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "128503bc-1d12-4966-aecb-aaa2a9f6eede")
+	)
+	(wire
+		(pts
+			(xy 102.87 160.02) (xy 114.3 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "131855a1-fc55-4abe-b62b-f37c8e2f5059")
 	)
 	(wire
 		(pts
@@ -838,16 +848,6 @@
 			(type default)
 		)
 		(uuid "257796c8-0f5b-4327-ba03-9431ca9d99fa")
-	)
-	(wire
-		(pts
-			(xy 102.87 156.21) (xy 110.49 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26f6deff-2c25-4c83-87fe-4c3bbfcbf26b")
 	)
 	(wire
 		(pts
@@ -898,16 +898,6 @@
 			(type default)
 		)
 		(uuid "40b88284-667a-4cf7-9dc2-887b63b2c933")
-	)
-	(wire
-		(pts
-			(xy 102.87 144.78) (xy 110.49 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bc14642-d6b0-4a4a-acc5-d2b77ceabc96")
 	)
 	(bus
 		(pts
@@ -981,16 +971,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 140.97) (xy 110.49 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1b503e6-7bec-4b2b-a34e-8f518e02f09b")
-	)
-	(wire
-		(pts
 			(xy 67.31 82.55) (xy 67.31 85.09)
 		)
 		(stroke
@@ -1051,6 +1031,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 156.21) (xy 114.3 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5103209-4eaf-4062-a73d-743308735572")
+	)
+	(wire
+		(pts
 			(xy 67.31 90.17) (xy 67.31 92.71)
 		)
 		(stroke
@@ -1078,6 +1068,16 @@
 			(type default)
 		)
 		(uuid "ec31e7a1-dfdf-4df5-bf2d-9b6c931cff8f")
+	)
+	(wire
+		(pts
+			(xy 102.87 140.97) (xy 114.3 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3b0482-00e0-4851-a580-f344f49b7c3a")
 	)
 	(bus
 		(pts
@@ -1457,8 +1457,8 @@
 		)
 	)
 	(sheet
-		(at 110.49 137.16)
-		(size 38.1 25.4)
+		(at 114.3 137.16)
+		(size 39.37 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1468,8 +1468,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "45fc4ad5-e2b2-482c-b7f1-2242f233db71")
-		(property "Sheetname" "Switching"
-			(at 110.49 136.4484 0)
+		(property "Sheetname" "DP Switching"
+			(at 114.3 136.4484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,8 +1477,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Switching.kicad_sch"
-			(at 110.49 163.1446 0)
+		(property "Sheetfile" "DP-Switching.kicad_sch"
+			(at 114.3 163.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,7 +1487,7 @@
 			)
 		)
 		(pin "DP_Out" output
-			(at 148.59 140.97 0)
+			(at 153.67 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1497,7 +1497,7 @@
 			(uuid "be475331-3aa2-46cb-b660-aa66a0860ca2")
 		)
 		(pin "CE_0" input
-			(at 110.49 140.97 180)
+			(at 114.3 140.97 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1507,7 +1507,7 @@
 			(uuid "ac7ed20f-8185-4d4a-9cb7-df18ad0c9b4d")
 		)
 		(pin "CE_1" input
-			(at 110.49 144.78 180)
+			(at 114.3 144.78 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1517,7 +1517,7 @@
 			(uuid "4d079f7d-39b7-4352-b7b6-452750a0bf1d")
 		)
 		(pin "CS_B" input
-			(at 110.49 156.21 180)
+			(at 114.3 156.21 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1527,7 +1527,7 @@
 			(uuid "a69a4d40-a517-44bc-a787-82b22e42eb7f")
 		)
 		(pin "CS_A" input
-			(at 110.49 160.02 180)
+			(at 114.3 160.02 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1563,6 +1563,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Sheetfile" "Enable-Counter.kicad_sch"
@@ -1573,16 +1574,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "CE_0" output
-			(at 102.87 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "dde32daf-2cf1-48fe-918a-6ea1629c4a5f")
 		)
 		(pin "CE_1" output
 			(at 102.87 144.78 0)
@@ -1613,6 +1604,16 @@
 				(justify right)
 			)
 			(uuid "6d18ab0b-757d-43e3-bf7b-7016d182c7df")
+		)
+		(pin "CE_0" output
+			(at 102.87 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b836b66b-0e0c-44b3-acdc-434832907add")
 		)
 		(instances
 			(project "Custom KVM"

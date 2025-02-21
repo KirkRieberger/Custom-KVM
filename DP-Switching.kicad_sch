@@ -4869,7 +4869,7 @@
 			(uuid "d82839dc-228c-4389-a466-d56a6c9bd47b")
 		)
 		(instances
-			(project ""
+			(project "Custom KVM"
 				(path "/0c5b2cf4-6c71-473b-81e1-a704ab2e8eda/45fc4ad5-e2b2-482c-b7f1-2242f233db71"
 					(reference "J3")
 					(unit 1)
@@ -6000,7 +6000,7 @@
 			(uuid "05f19b30-8800-4a0e-ba00-6d2dcf742a91")
 		)
 		(instances
-			(project ""
+			(project "Custom KVM"
 				(path "/0c5b2cf4-6c71-473b-81e1-a704ab2e8eda/45fc4ad5-e2b2-482c-b7f1-2242f233db71"
 					(reference "C1")
 					(unit 1)
@@ -6204,7 +6204,7 @@
 			(uuid "2ad53631-1f23-4b9e-8535-5553e246c189")
 		)
 		(instances
-			(project ""
+			(project "Custom KVM"
 				(path "/0c5b2cf4-6c71-473b-81e1-a704ab2e8eda/45fc4ad5-e2b2-482c-b7f1-2242f233db71"
 					(reference "C2")
 					(unit 1)
@@ -6342,7 +6342,7 @@
 			(uuid "bc5aadd0-e6a9-412b-96d0-8e649e72cc15")
 		)
 		(instances
-			(project ""
+			(project "Custom KVM"
 				(path "/0c5b2cf4-6c71-473b-81e1-a704ab2e8eda/45fc4ad5-e2b2-482c-b7f1-2242f233db71"
 					(reference "R1")
 					(unit 1)
