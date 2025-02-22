@@ -2038,6 +2038,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 76.2) (xy 41.91 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c04018-5ae0-46e7-b942-68c65ea373c3")
+	)
+	(wire
+		(pts
 			(xy 149.86 54.61) (xy 148.59 54.61)
 		)
 		(stroke
@@ -2248,7 +2258,7 @@
 	)
 	(text "Debounce circuit"
 		(exclude_from_sim no)
-		(at 69.85 30.734 0)
+		(at 38.862 37.846 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2276,6 +2286,16 @@
 		)
 		(uuid "5e54a50c-3c55-4015-b7c1-a6044ed4a001")
 	)
+	(label "Count_High"
+		(at 153.67 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71ddbb7d-b57b-47ca-b447-228cad77788c")
+	)
 	(label "Mon_Sw"
 		(at 77.47 52.07 0)
 		(effects
@@ -2285,6 +2305,16 @@
 			(justify left bottom)
 		)
 		(uuid "f445ccf7-cef3-4c28-879d-a17ea139c104")
+	)
+	(label "Count_Low"
+		(at 139.7 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffd7e836-7467-4e32-bcdd-2356f904de13")
 	)
 	(hierarchical_label "CS_A"
 		(shape output)
@@ -3206,10 +3236,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "be2fc13c-8097-4f63-abf4-5029563b3ac0")
 		(property "Reference" "U6"
-			(at 44.1041 44.45 0)
+			(at 40.386 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3347,6 +3376,73 @@
 			(project "Custom KVM"
 				(path "/0c5b2cf4-6c71-473b-81e1-a704ab2e8eda/a7aaebd5-c008-4775-8536-ee48ae98ac2a"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 41.91 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0515486-a6cc-4b0f-973c-c99ff22bbab4")
+		(property "Reference" "#PWR17"
+			(at 41.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "028a94b8-527f-40fa-95be-50b848f75620")
+		)
+		(instances
+			(project "Custom KVM"
+				(path "/0c5b2cf4-6c71-473b-81e1-a704ab2e8eda/a7aaebd5-c008-4775-8536-ee48ae98ac2a"
+					(reference "#PWR17")
 					(unit 1)
 				)
 			)
