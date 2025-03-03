@@ -1475,6 +1475,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Sheetfile" "DP-Switching.kicad_sch"
