@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "16e2dbab-f3b4-4df0-a172-0a3b2add30f2")
-	(paper "A4")
+	(paper "USLetter")
 	(lib_symbols
 		(symbol "Connector:USB_A_Stacked"
 			(pin_names
