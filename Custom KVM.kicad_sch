@@ -2193,6 +2193,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Sheetfile" "USB-Switching.kicad_sch"
