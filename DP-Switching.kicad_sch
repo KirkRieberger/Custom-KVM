@@ -5,6 +5,8 @@
 	(uuid "ecc88b80-7c8d-4e39-92ee-64b6e1b555c8")
 	(paper "USLetter")
 	(title_block
+		(title "DisplayPort Switching")
+		(date "21-Feb-2025")
 		(rev "1")
 		(company "rieberger.ca")
 	)

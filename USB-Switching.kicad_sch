@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "16e2dbab-f3b4-4df0-a172-0a3b2add30f2")
 	(paper "USLetter")
+	(title_block
+		(title "USB Switching")
+		(date "23-Mar-2025")
+		(rev "1")
+		(company "rieberger.ca")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_A_Stacked"
 			(pin_names
